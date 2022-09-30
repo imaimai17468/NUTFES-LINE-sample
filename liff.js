@@ -54,8 +54,8 @@ function shareTargetPicker(text) {
         'type': 'text',
         'text': text
     }]).catch(function (error) {
+        console.log(res);
         window.alert('Failed to send message ' + error);
     });
-    console.log(res);
 }
 
