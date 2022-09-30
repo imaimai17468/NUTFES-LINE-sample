@@ -50,11 +50,12 @@ function sendMessages(text) {
 // Webブラウザからメッセージ送信
 function shareTargetPicker(text) {
     console.log('in shareTargetPicker');
-    liff.shareTargetPicker([{
+    let res = liff.shareTargetPicker([{
         'type': 'text',
         'text': text
     }]).catch(function (error) {
         window.alert('Failed to send message ' + error);
     });
+    console.log(res);
 }
 
