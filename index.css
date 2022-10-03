@@ -22,6 +22,7 @@ header{
 .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
+    margin: 0;
     color: #5CB8E4;
 }
 
